@@ -1,77 +1,45 @@
-Employee-Dashboard
-🚀 Project Overview
-The Employee-Dashboard is a full-stack platform designed to streamline employee management for growing organizations. This system replaces manual, error-prone processes with a centralized, automated, and secure solution.
+# Employee-Dashboard
 
-✨ Features
-Secure Authentication: Users are protected with JSON Web Token (JWT) authentication.
+🚀 **Project Overview**  
+The **Employee-Dashboard** is a full-stack platform designed to streamline employee management for growing organizations. This system replaces manual, error-prone processes with a centralized, automated, and secure solution.
 
-Role-Based Dashboards: Admins have full control over managing employee data, departments, salaries, and leave requests.
+---
 
-Employee Records: Admins can easily add, update, and remove employee information.
+## ✨ Features
+- **Secure Authentication**: Users are protected with JSON Web Token (JWT) authentication.  
+- **Role-Based Dashboards**: Admins have full control over managing employee data, departments, salaries, and leave requests.  
+- **Employee Records**: Admins can easily add, update, and remove employee information.  
+- **Integrated File Uploads**: Supports file uploads for employee records, handled by Multer.  
+- **Responsive UI**: Clean and intuitive interface built with React and Tailwind CSS for a smooth experience on any device.  
 
-Integrated File Uploads: Supports file uploads for employee records, handled by Multer.
+---
 
-Responsive UI: The clean and intuitive user interface is built with React and styled with Tailwind CSS to ensure a great experience on any device.
+## 🛠️ Tech Stack
+- **Frontend**: React.js, Tailwind CSS  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB  
+- **Authentication**: JWT, bcrypt  
+- **File Handling**: Multer  
 
-🛠️ Tech Stack
-Frontend: React.js, Tailwind CSS
+This project is built on the **MERN stack**, demonstrating a strong foundation in modern web development technologies.
 
-Backend: Node.js, Express.js
+---
 
-Database: MongoDB
+## ⚙️ Installation & Usage
 
-Authentication: JWT, bcrypt
+### Prerequisites
+- Node.js installed on your machine  
+- MongoDB Atlas account or local MongoDB instance  
 
-File Handling: Multer
+### Steps
 
-This project is built on the MERN stack, demonstrating a strong foundation in modern web development technologies.
-
-⚙️ Installation & Usage
-Prerequisites
-Node.js installed on your machine
-
-MongoDB Atlas account or local instance
-
-Steps
-Clone the repository:
-
-git clone [https://github.com/PRATIKSHA-PARIHAR/Employee-Dashboard.git](https://github.com/PRATIKSHA-PARIHAR/Employee-Dashboard.git)
-
-Navigate to the project directory:
-
-cd Employee-Dashboard
-
-Install dependencies for the server:
-
-cd server
-npm install
-
-Install dependencies for the client:
-
-cd ../client
-npm install
-
-Set up environment variables:
-Create a .env file in the server directory and add your MongoDB connection string and JWT secret.
-
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-
-Run the application:
-From the root directory, start the server and client.
-
-# Start the server
-cd server
-npm start
-
-# Open a new terminal and start the client
-cd ../client
-npm start
-
-The application will be running at http://localhost:3000.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/PRATIKSHA-PARIHAR/Employee-Dashboard.git
 
 🤝 Contribution
 Contributions are welcome! If you have suggestions or find a bug, please feel free to open an issue or submit a pull request.
 
 Author: Pratiksha Parihar
+
 
